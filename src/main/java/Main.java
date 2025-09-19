@@ -40,7 +40,7 @@ public class Main {
     public static void testWithImage(String string,Font font,int maxWidth){
 
         FontMetrics metrics = new Canvas().getFontMetrics(font);
-        BufferedImage destImage=new BufferedImage(maxWidth,300,BufferedImage.TYPE_INT_RGB);
+        BufferedImage destImage=new BufferedImage(maxWidth,450,BufferedImage.TYPE_INT_RGB);
 
         List<String> splitted= DRMTextWrapper.INSTANCE.wrap(string, metrics, maxWidth);
         System.out.println(String.join("\n", splitted));
