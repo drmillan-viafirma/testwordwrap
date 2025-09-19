@@ -13,7 +13,7 @@ public class Main {
                 palabra inicial AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi tellus. Phasellus pellentesque venenatis neque, id rutrum odio scelerisque sit amet. Aenean bibendum ullamcorper ipsum, eleifend posuere sem finibus ac. Cras ac dictum dolor. Sed et felis interdum, viverra mi vel, dignissim neque. Quisque maximus vitae elit vel fermentum. Ut aliquam magna in cursus luctus. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin justo mi, malesuada vitae nisl at, laoreet dapibus ex.
                 """;
 
-        Font f=new Font("Arial",Font.PLAIN,500);
+        Font f=new Font("Arial",Font.PLAIN,13);
         testWithImage(testString,f,maxWidth);
 
         // benchmark(testString,f,maxWidth,300000);
